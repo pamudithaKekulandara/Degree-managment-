@@ -1,2 +1,2 @@
 # Degree-managment-
-d
+Using OSGI framework 
