@@ -24,6 +24,30 @@ public class Pub implements PubInt{
 		return selection;
 	}
 
+	@Override
+	public float CheckApptitude() {
+		
+		System.out.println("Enter the marks");
+		
+		Scanner sc= new Scanner(System.in);
+		float mark= sc.nextFloat();
+		
+		return mark;
+		
+	}
+
+	@Override
+	public int CheckStream() {
+		System.out.println("Welcome to the degree management department.");
+		System.out.println("According to your AL stream, we are going to recomend pre-defined courses for your stream.");
+		System.out.println("	Maths	1 \n Biology	2\n Commerce	3");
+		Scanner st= new Scanner(System.in);
+		int stream= st.nextInt();
+		return stream;
+	}
+	
+	
+
 	
 
 }
