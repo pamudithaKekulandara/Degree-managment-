@@ -1,4 +1,4 @@
-package computinservice;
+package computing;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
