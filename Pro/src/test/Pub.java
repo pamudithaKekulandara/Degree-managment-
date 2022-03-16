@@ -45,6 +45,16 @@ public class Pub implements PubInt{
 		int stream= st.nextInt();
 		return stream;
 	}
+
+	@Override
+	public int selectCourse() {
+		System.out.println("Enter the preferd course code");
+		
+		Scanner cr= new Scanner(System.in);
+		int crs= cr.nextInt();
+		
+		return crs;
+	}
 	
 	
 

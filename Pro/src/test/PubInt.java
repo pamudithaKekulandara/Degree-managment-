@@ -7,5 +7,6 @@ public interface PubInt {
 	public int CheckEligibility();
 	public float CheckApptitude();
 	public int CheckStream();
+	public int selectCourse();
 }
 
